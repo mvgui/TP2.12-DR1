@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.red {
+  border: dotted 3px red;
+  background-color: rgba(255, 0, 0, 0.3);
+  color: red;
+}
+
+.red a,
+.red a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+.yellow {
+  border: dashed 3px #edac20;
+  background-color: rgba(255, 238, 0, 0.3);
+  color: #edac20;
+}
+
+.yellow a,
+.yellow a:visited {
+  color: rgb(234, 204, 7);
+  text-decoration: none;
+}
+
+.green {
+  border: solid 3px green;
+  background-color: rgba(0, 255, 0, 0.3);
+  color: green;
+}
+
+.green a,
+.green a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.ajuste {
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  color: black;
+}
+
+.transparencia {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transparencia ul {
+  list-style: none;
+  text-align: center;
+}
+
+.div__red {
+  background-image: url(img/red.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.div__yellow {
+  background-image: url(img/yellow.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.div__green {
+  background-image: url(img/green.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
